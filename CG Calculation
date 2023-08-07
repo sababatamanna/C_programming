@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	double first=2.6,second=3.5,third=4,fourth=3.7;
+	double credit1=20,credit2=18,credit3=10,credit4=15;
+	double sum=((first*credit1)+(second*credit2)+(third*credit3)+(fourth*credit4));
+	double credit_total=credit1+credit2+credit3+credit4;
+	double cg= (sum)/credit_total;
+	printf("%lf",cg);
+	return 0;
+}
