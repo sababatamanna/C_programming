@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int c;
+	scanf("%d",&c);
+	if(c==1)
+		printf("One");
+	else if(c==2)
+	printf("Two");
+	else if(c<1)
+	printf("Less than one");
+	else
+	printf("Greater than one");
+}
