@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+int main()
+{   int i;
+    time_t t;
+    srand((unsigned) time(&t));
+	for(i=1;i<10;i++)
+	{   int num=rand()%2+1;
+		if (num%2==0) printf("HEADS\n");
+		else
+		printf("TAILS\n");
+	}
+	
+}
