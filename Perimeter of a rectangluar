@@ -1,0 +1,12 @@
+include<stdio.h>
+int main()
+{
+       float height,width;
+       printf("Enter your height-");
+       scanf("%f",&height);
+       printf("Enter your width- ");
+       scanf("%f",&width);
+       float per=2*(height+width);
+       printf("%f",per);
+       return 0;
+}
