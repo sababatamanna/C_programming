@@ -7,6 +7,6 @@ int main()
        printf("Enter your width- ");
        scanf("%f",&width);
        float per=2*(height+width);
-       printf("%f",per);
+       printf("%.2f",per);
        return 0;
 }
