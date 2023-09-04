@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main (){
+char alfa='c';
+int a=(int)alfa;
+printf("%d\n",a);
+return 0;
+}
