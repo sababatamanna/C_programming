@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	scanf("%d",&n);
+	int sum=0;
+	int odd=2;
+    for(i=1;i<=n;i=i+1)
+    {
+     sum=sum+odd;
+     odd=odd+2;
+	}
+	printf("%d",sum);
+	return 0;
+}
