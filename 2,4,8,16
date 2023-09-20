@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int num;
+	scanf("%d",&num);
+	int temp=2;
+	int i;
+	for(i=1;i<=num;i++)
+	{
+		printf("%d\n",temp);
+		temp=temp*2;
+	}
+	return 0;
+}
